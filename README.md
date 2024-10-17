@@ -1,4 +1,4 @@
-🦠 COVID-19 Dashboard
+# 🦠 COVID-19 Dashboard
 
 This project is a **COVID-19 Dashboard** built using **Streamlit** and **Plotly**. It visualizes COVID-19 data globally, allowing users to analyze and compare COVID-19 statistics across different countries. 📊
 
@@ -25,25 +25,41 @@ This project is a **COVID-19 Dashboard** built using **Streamlit** and **Plotly*
 Follow these steps to get a local copy of the project and run the app:
 
 1. **Clone the Repository** 📥
-   ```
+   ```bash
    git clone https://github.com/your-username/COVID-19-Dashboard.git
    cd COVID-19-Dashboard
    ```
 
-2. **Install Dependencies** 📦  
-   Make sure you have Python installed. Then, install the required dependencies by running:
+2. **Create a Virtual Environment** 🐍  
+   It's recommended to create a virtual environment to manage dependencies:
+   ```bash
+   python -m venv venv
    ```
+
+3. **Activate the Virtual Environment** 🌱  
+   On Windows:
+   ```bash
+   venv\Scripts\activate
+   ```
+   On macOS/Linux:
+   ```bash
+   source venv/bin/activate
+   ```
+
+4. **Install Dependencies** 📦  
+   Make sure you have Python installed. Then, install the required dependencies by running:
+   ```bash
    pip install -r requirements.txt
    ```
 
-3. **Run the App** ▶️  
+5. **Run the App** ▶️  
    Start the Streamlit app using the command:
-   ```
+   ```bash
    streamlit run app.py
    ```
    The app will open in your default web browser.
 
-4. **Explore the Dashboard** 🌐  
+6. **Explore the Dashboard** 🌐  
    - Select a country from the dropdown to see its latest COVID-19 statistics.
    - View historical data, global statistics, and compare data between countries.
    - Check the heatmap and explore the top 10 countries with the most cases.
@@ -84,3 +100,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Feel free to ⭐️ the repository if you find it helpful!
 
 Happy coding! 🚀
+
+This updated README now includes instructions on creating and activating a virtual environment, ensuring users have a smooth setup process.
